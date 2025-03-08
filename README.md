@@ -1,16 +1,71 @@
-# hero_animation_example
+# Animation And Pagination Example
 
-A new Flutter project.
+## 📌 Project Overview
+Istanbul Travel App is a **Flutter** application that provides a seamless and animated experience for exploring historical places in Istanbul. It includes **smooth animations, Hero transitions, pagination with API data fetching, and a well-designed splash screen** to enhance user experience.
 
-## Getting Started
+## 🚀 Features
+- **Splash Screen with Animations**: A visually appealing introduction screen.
+- **Hero Animation**: Smooth transitions between list and detail pages.
+- **Pagination**: Efficient data fetching using JSONPlaceholder API.
+- **Animated List Items**: Animated entrance for list items.
+- **Modern UI Design**: A clean and minimalistic user interface.
+- **Shimmer Effect**: Placeholder loading effect for a better UX.
 
-This project is a starting point for a Flutter application.
+## 📷 Screenshots
+![Screenshot 1](https://via.placeholder.com/400x800)
+![Screenshot 2](https://via.placeholder.com/400x800)
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Technologies Used
+- **Flutter** (Dart)
+- **Hero Widget** for smooth page transitions
+- **Animations** (Fade, Slide, and Entrance animations)
+- **HTTP Package** for API calls
+- **Shimmer Package** for loading effects
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📦 Installation & Setup
+### 1️⃣ Prerequisites
+Make sure you have the following installed:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Android Studio or Visual Studio Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/istanbul_travel_app.git
+cd istanbul_travel_app
+```
+
+### 3️⃣ Install Dependencies
+```bash
+flutter pub get
+```
+
+### 4️⃣ Run the App
+For Android:
+```bash
+flutter run
+```
+For iOS:
+```bash
+flutter run --no-sound-null-safety
+```
+
+## 📜 Code Structure
+```
+lib/
+│── main.dart                # Entry point of the app
+│── splash_screen.dart       # Splash screen with fade and slide animation
+│── list_page.dart           # Main list page with animated items
+│── detail_page.dart         # Detailed view with Hero animation
+│── pagination_list.dart     # Pagination with API fetching
+│── animated_entrance.dart   # Custom animation for list items
+```
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## 📄 License
+This project is licensed under the MIT License.
+
+## ✨ Author
+Developed by **Your Name**. Follow me on [GitHub](https://github.com/yourusername) & [Twitter](https://twitter.com/yourhandle).
+
