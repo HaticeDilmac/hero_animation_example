@@ -11,9 +11,9 @@ Istanbul Travel App is a **Flutter** application that provides a seamless and an
 - **Modern UI Design**: A clean and minimalistic user interface.
 - **Shimmer Effect**: Placeholder loading effect for a better UX.
 
-## 📷 Screenshots
-![Screenshot 1](https://via.placeholder.com/400x800)
-![Screenshot 2](https://via.placeholder.com/400x800)
+## 📷 Screenshots! 
+
+![Screenshot 1] (https://github.com/user-attachments/assets/734c05cf-2cec-4dc2-b510-a3081b764fd1)
 
 ## 🛠 Technologies Used
 - **Flutter** (Dart)
