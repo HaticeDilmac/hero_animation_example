@@ -13,7 +13,8 @@ Istanbul Travel App is a **Flutter** application that provides a seamless and an
 
 ## 📷 Screenshots! 
 
-![Screenshot 1] (https://github.com/user-attachments/assets/734c05cf-2cec-4dc2-b510-a3081b764fd1)
+![Screenshot 1] 
+https://github.com/user-attachments/assets/734c05cf-2cec-4dc2-b510-a3081b764fd1
 
 ## 🛠 Technologies Used
 - **Flutter** (Dart)
