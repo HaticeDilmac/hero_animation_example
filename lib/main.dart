@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hero_animation_example/animated_entrance.dart';
+import 'package:hero_animation_example/pagination_list.dart';
 import 'package:shimmer/shimmer.dart';
 
 void main() {
@@ -146,7 +147,18 @@ class ListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('İstanbul Gezi Listesi')),
+      appBar: AppBar(
+        title: const Text('İstanbul Gezi Listesi'),
+        actions: [
+          //pagination list example page iconButton
+          IconButton(
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => const PaginationListPage()));
+              },
+              icon: const Icon(Icons.add))
+        ],
+      ),
       body: ListView.builder(
         itemCount: items.length,
         itemBuilder: (context, index) {
