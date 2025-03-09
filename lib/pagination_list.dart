@@ -14,7 +14,7 @@ class _PaginationListPageState extends State<PaginationListPage> {
   final ScrollController _scrollController = ScrollController();
   List<Map<String, dynamic>> _posts = [];
   bool _isLoading = false;
-  bool _hasMore = true; //Daha fazla veri var mı yok mu kontrol eder
+  bool _hasMore = true;  
   int _page = 1; //Current page number (Starting with 1).
   final int _limit =
       10; //Determines how many posts will be retrieved in each API request.
@@ -29,7 +29,7 @@ class _PaginationListPageState extends State<PaginationListPage> {
 
   //from API - pagination support
   Future<void> fetchPosts() async {
-    if (_isLoading || !_hasMore) return; //yükleniyorsa çağırma
+    if (_isLoading || !_hasMore) return;  
     setState(() {
       _isLoading = true;
     });

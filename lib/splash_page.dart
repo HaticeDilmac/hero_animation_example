@@ -62,7 +62,7 @@ class _SplashScreenState extends State<SplashScreen>
                 AnimatedEntrance(
                   duration: const Duration(milliseconds: 1800),
                   child: const Text(
-                    'İstanbul Keşfet',
+                    'Discover',
                     style: TextStyle(
                       fontSize: 32,
                       fontWeight: FontWeight.bold,
